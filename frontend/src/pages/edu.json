@@ -1,0 +1,42 @@
+{
+  "degrees": [
+    {
+      "degree": "Bachelor of Science in Computer Science",
+      "university": "University of Science",
+      "medium": "English",
+      "location": "Cityville",
+      "session_begin": "September 2024",
+      "register_link": "https://www.universityofscience.edu/register",
+      "requirements": [
+        "High school diploma or equivalent",
+        "Standardized test scores (SAT/ACT)"
+      ]
+    },
+    {
+      "degree": "Master of Business Administration (MBA)",
+      "university": "Business School International",
+      "medium": "English",
+      "location": "Metropolis",
+      "session_begin": "January 2025",
+      "register_link": "https://www.businessschoolinternational.edu/register",
+      "requirements": [
+        "Bachelor's degree or equivalent",
+        "GMAT/GRE scores",
+        "Work experience (preferred)"
+      ]
+    },
+    {
+      "degree": "Bachelor of Arts in Psychology",
+      "university": "City University",
+      "medium": "English",
+      "location": "Townsville",
+      "session_begin": "August 2024",
+      "register_link": "https://www.cityuniversity.edu/register",
+      "requirements": [
+        "High school diploma or equivalent",
+        "Personal statement",
+        "Letters of recommendation"
+      ]
+    }
+  ]
+}

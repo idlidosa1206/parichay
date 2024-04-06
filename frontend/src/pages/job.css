@@ -1,0 +1,89 @@
+.job-card {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 20px;
+  margin: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  color: black; /* Set text color to black */
+ 
+}
+
+.job-card h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.job-card p {
+  margin-bottom: 10px;
+}
+
+.job-card p strong {
+  font-weight: bold;
+}
+
+/* Only one column layout */
+@media (max-width: 768px) {
+  .job-card {
+    width: calc(100% - 20px); /* Single card per row */
+  }
+  
+}
+/* job.css */
+
+.job-container1 {
+  display: flex;
+  flex-direction: column; /* Stack job cards vertically */
+  gap: 20px; /* Add some space between job cards */
+}
+
+.job-title {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.title {
+  color: #333;
+}
+
+.job-card {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 20px;
+  margin: 0 auto; /* Center the job cards */
+  width: 80%; /* Set width of job cards */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  color: black; /* Set text color to black */
+}
+
+.job-card h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.job-card p {
+  margin-bottom: 10px;
+}
+
+.job-card p strong {
+  font-weight: bold;
+}
+.job-description {
+  max-height: 100px; /* Set the maximum height for the description */
+  overflow: hidden; /* Hide the overflow */
+}
+
+.job-description.expanded {
+  max-height: none; /* Allow the description to expand */
+}
+.job{
+  background-color: #cdcccc;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 20px;
+  margin: 0 auto; /* Center the job cards */
+  width: 80%; /* Set width of job cards */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  color: black; /* Set text color to black */
+}

@@ -1,0 +1,20 @@
+[
+  {
+    "title": "Beautiful Beach House",
+    "location": "Miami, Florida",
+    "price": "$500,000",
+    "description": "A stunning beachfront property with breathtaking views of the ocean."
+  },
+  {
+    "title": "Cozy Mountain Cabin",
+    "location": "Aspen, Colorado",
+    "price": "$700,000",
+    "description": "Escape to the mountains in this charming cabin nestled among the trees."
+  },
+  {
+    "title": "Luxury Penthouse",
+    "location": "New York City, New York",
+    "price": "$1,500,000",
+    "description": "Live in the lap of luxury with this spacious penthouse in the heart of the city."
+  }
+]

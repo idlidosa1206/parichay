@@ -1,0 +1,31 @@
+
+  [
+    {
+      "name": "Dr. John Smith",
+      "specialization": "Cardiologist",
+      "ailment": "Heart Disease",
+      "hospital": "City Heart Hospital",
+      "contact_number": "+1234567890",
+      "location": "123 Main Street, Cityville",
+      "visit_hours": "Monday-Friday: 9am - 5pm"
+    },
+    {
+      "name": "Dr. Emily Jones",
+      "specialization": "Pediatrician",
+      "ailment": "Childhood illnesses",
+      "hospital": "Children's Medical Center",
+      "contact_number": "+1987654321",
+      "location": "456 Elm Street, Townsville",
+      "visit_hours": "Monday-Saturday: 10am - 6pm"
+    },
+    {
+      "name": "Dr. Sarah Lee",
+      "specialization": "Dermatologist",
+      "ailment": "Skin Disorders",
+      "hospital": "SkinCare Clinic",
+      "contact_number": "+1122334455",
+      "location": "789 Oak Avenue, Villageton",
+      "visit_hours": "Tuesday-Thursday: 11am - 7pm"
+    }
+  ]
+

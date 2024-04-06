@@ -1,0 +1,28 @@
+.house-card {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 20px;
+  margin: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  color: black; /* Set text color to black */
+  width: 60%;
+  margin: 5% auto;
+}
+
+.house-card h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.house-card p {
+  margin-bottom: 10px;
+}
+
+.house-card p strong {
+  font-weight: bold;
+}
+#house-title{
+    margin-top: 5%;
+    color: bold;
+}

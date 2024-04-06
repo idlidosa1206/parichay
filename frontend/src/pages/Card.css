@@ -1,0 +1,57 @@
+.card {
+  width: 400px;
+  height: 400px;
+  background-color: #e4e4e4;
+  margin: 40px 100px;
+  border-radius: 20px;
+  transition-duration: 0.4s;
+  color: black;
+}
+
+.card:hover {
+  background-color: white;
+  transform: translateY(-3px);
+  transform: scale(1.02, 1.02);
+}
+
+.card h2 {
+  text-shadow: 1px 1px #222;
+  color: black; /* Text color when not hovered */
+}
+
+.card h4 {
+  margin-top: 10px;
+  font-weight: 400;
+  color: black; /* Text color when not hovered */
+}
+
+.card:hover h2,
+.card:hover h4 {
+  color: black; /* Text color when hovered */
+}
+.card {
+  background-color: #f9f9f9;
+  border-radius: 5px;
+  padding: 20px;
+  margin: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  color: black;
+  width: 300px;
+}
+
+.card.position {
+  background-color: #fac099; /* Change the background color for the job card */
+  
+}
+
+.card.donate {
+  background-color: #575755; /* Change the background color for the donate card */
+}
+
+.card.health {
+  background-color: #fefeff; /* Change the background color for the health card */
+}
+
+.card.chat {
+  background-color: #fefeff; /* Change the background color for the chat card */
+}
