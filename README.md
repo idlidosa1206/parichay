@@ -38,7 +38,7 @@
 ## About The Project
 
 
-In alignment with Sustainable Development Goal 10 – Reduced Inequalities, our project, Parichay, aims to address the challenges faced by the LGBTQ+ community. This comprehensive app endeavors to promote social, economic, and political inclusion, providing solutions to issues such as lack of support, employment difficulties, mental health concerns, housing struggles, and a general lack of awareness about the community.
+Our project, Parichay, aims to address the challenges faced by the LGBTQ+ community. This comprehensive app endeavors to promote social, economic, and political inclusion, providing solutions to issues such as lack of support, employment difficulties, mental health concerns, housing struggles, and a general lack of awareness about the community.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
