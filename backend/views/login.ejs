@@ -4,20 +4,72 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
+    <style>
+        
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #d1d1d1;
+            color: black;
+        }
+        nav li {
+            float: left;
+        }
+        nav li a {
+            display: block;
+            color: black;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+        nav li a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+        header {
+            background-color: #e9e9e9;
+            color: black;
+            padding: 30px;
+            text-align: center;
+        }
+        main {
+            text-align: center;
+            padding: 20px;
+        }
+        .google-btn {
+            display: inline-block;
+            background-color: #DB4437;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            transition: background-color 0.3s;
+        }
+        .google-btn:hover {
+            background-color: #C13584;
+        }
+    </style>
 </head>
 <body>
     <nav>
         <ul>
-            <li><a href = "/auth/logout">Logout</a></li>
-            <li><a href = "/auth/login">Login</a></li>
-            <li><a href = "/">HomePage</a></li>     
+            <% if (user) {%>
+        <li><a href="/auth/logout" class="logout">Logout</a></li>
+        <% } else { %>
+        <li><a href="/auth/login" class="login">Login</a></li>
+        <% } %>
+            <li><a href="/">HomePage</a></li>  
+            <li><a href="/profile">Profile</a></li>   
         </ul>
     </nav>
     <header>
         <h1>Login using ...</h1>
     </header>
     <main>
-        <a class ="google-btn" href= "/auth/google">Google</a>
+        <a class="google-btn" href="/auth/google">Google</a>
     </main>
 </body>
 </html>
