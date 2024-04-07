@@ -24,7 +24,6 @@ const Navbar = () => {
         <NavMenu>
           <div className="flex-container">
             <NavLink to="/home">Home</NavLink>
-            {/* Render dropdown toggle and menu */}
             <NavDropdown onClick={toggleDropdown} active={dropdownOpen}>
               Help Pages
               <DropdownMenu visible={dropdownOpen}>
@@ -34,7 +33,7 @@ const Navbar = () => {
                 <NavLink to="/education">Education</NavLink>
               </DropdownMenu>
             </NavDropdown>
-            <NavLink to="/helpline">Helpline</NavLink>
+            <NavLink to="/chatpage">Helpline</NavLink>
             <NavLink to="/chat">Chat</NavLink>
           </div>
         </NavMenu>
